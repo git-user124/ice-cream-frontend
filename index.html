@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aramore Ice Cream</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta name="description" content="Discover the finest ice creams, sundaes, and more at Aramore Ice Cream. Visit us today for a scoop of happiness!">
+<meta name="keywords" content="ice cream, sundaes, waffles, desserts, Aramore">
+
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Aramore Ice Cream</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="services.html">Ice Cream Customization</a></li>
+                <li><a class="dropdown-item" href="services.html">Catering for Events</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="services.html">Ice Cream Workshop</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav> 
+   
+    
+<div class="container-fluid my-0 px-0">
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <!-- Carousel Items -->
+      <div class="carousel-item active position-relative">
+        <img src="carousel1.jpg" class="d-block w-100" alt="..." style="filter: brightness(50%);">
+        <div class="carousel-caption d-flex justify-content-center align-items-center position-absolute top-50 start-50 translate-middle text-center w-100 p-5 bg-dark bg-opacity-75">
+          <h5 class="text-light">"You can’t buy happiness, but you can buy ice cream, and that’s pretty much the same thing."</h5>
+          <p class="text-light">Come treat yourself to a scoop (or two) of pure bliss!</p>
+        </div>
+      </div>
+      <div class="carousel-item position-relative">
+        <img src="carousel2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-flex justify-content-center align-items-center position-absolute top-50 start-50 translate-middle text-center w-100 p-5 bg-dark bg-opacity-75">
+          <h5 class="text-light">"Life is like an ice cream, enjoy it before it melts!"</h5>
+          <p class="text-light">Dive into the sweet world of ice cream with our delightful flavors that will make every moment unforgettable!</p>
+        </div>
+      </div>
+      <div class="carousel-item position-relative">
+        <img src="carousel3.jpg" class="d-block w-100" alt="..." style="filter: brightness(50%);">
+        <div class="carousel-caption d-flex justify-content-center align-items-center position-absolute top-50 start-50 translate-middle text-center w-100 p-5 bg-dark bg-opacity-75">
+          <h5 class="text-light">"A balanced diet is an ice cream in each hand."</h5>
+          <p class="text-light">Why choose just one when you can indulge in two? Grab your favorite flavors and double the fun!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<style>
+
+.carousel-image {
+  filter: brightness(50%);
+}
+
+.carousel-caption h5, .carousel-caption p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+}
+
+.card img {
+  object-fit: cover;
+  height: 250px;
+}
+
+.price strong {
+  color: rgb(30, 179, 30);
+  font-weight: bold;
+}
+
+  @media (max-width: 768px) {
+
+    .carousel-caption {
+    padding: 3rem 1rem;
+  }
+
+    .carousel-caption h5 {
+      margin-left: 1rem;
+      margin-right: 1rem;
+      font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+      margin-right: 1rem;
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .carousel-caption h5 {
+      margin-left: 0.2rem;
+      margin-right: 0.2rem;
+      font-size: 0.8rem;
+    }
+
+    .carousel-caption p {
+      margin-right: 0.2rem;
+      font-size: 0.6rem;
+    }
+  }
+</style>
+
+
+<div class="container my-4">
+  <h1 class="my-5 text-center">Dive into the World of Ice Creams</h1>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <!-- Brownie Sundae Card -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="brownie-sundae.jpg" class="d-block w-100" alt="Brownie Sundae">
+        <div class="card-body">
+          <h5 class="card-title">Brownie Sundae</h5>
+          <p class="card-text">A delicious sundae with rich brownies, creamy ice cream, and a drizzle of chocolate.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Customize</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Flavors</button>
+            </div>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between">
+            <span class="price">Price: <strong>₹179</strong></span>
+            <button class="btn btn-primary btn-sm">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ice Cream Sandwich Card -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="ice-cream-sandwich.jpg" class="d-block w-100" alt="Ice Cream Sandwich">
+        <div class="card-body">
+          <h5 class="card-title">Ice Cream Sandwich</h5>
+          <p class="card-text">A delightful combination of ice cream and cookies, perfect for a fun treat!</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Customize</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Flavors</button>
+            </div>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between">
+            <span class="price">Price: <strong>₹159</strong></span>
+            <button class="btn btn-primary btn-sm">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mochi Ice Cream Card -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="mochi-ice-cream.jpg" class="d-block w-100" alt="Mochi Ice Cream">
+        <div class="card-body">
+          <h5 class="card-title">Mochi Ice Cream</h5>
+          <p class="card-text">Soft and chewy mochi filled with creamy ice cream. A perfect bite-sized treat!</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Customize</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Flavors</button>
+            </div>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between">
+            <span class="price">Price: <strong>₹189</strong></span>
+            <button class="btn btn-primary btn-sm">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Raspberry Sherbet Card -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="raspberry-sherbet.jpg" class="d-block w-100" alt="Raspberry Sherbet">
+        <div class="card-body">
+          <h5 class="card-title">Raspberry Sherbet</h5>
+          <p class="card-text">A refreshing raspberry sherbet that's perfect for a fruity and tangy treat!</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Customize</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Flavors</button>
+            </div>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between">
+            <span class="price">Price: <strong>₹129</strong></span>
+            <button class="btn btn-primary btn-sm">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Red Grape Ice Pops Card -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="red-grape-ice-pops.jpg" class="d-block w-100" alt="Red Grape Ice Pops">
+        <div class="card-body">
+          <h5 class="card-title">Red Grape Ice Pops</h5>
+          <p class="card-text">Chilled red grape ice pops that are both refreshing and naturally sweet!</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Customize</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Flavors</button>
+            </div>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between">
+            <span class="price">Price: <strong>₹119</strong></span>
+            <button class="btn btn-primary btn-sm">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Waffle Ice Cream Card -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="waffle-ice-cream.jpg" class="d-block w-100" alt="Waffle Ice Cream">
+        <div class="card-body">
+          <h5 class="card-title">Waffle Ice Cream</h5>
+          <p class="card-text">Crispy waffle cones filled with delicious ice cream. A classic treat!</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Customize</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Flavors</button>
+            </div>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between">
+            <span class="price">Price: <strong>₹149</strong></span>
+            <button class="btn btn-primary btn-sm">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>
